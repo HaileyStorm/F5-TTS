@@ -53,6 +53,7 @@ eval = [
 
 [tool.setuptools_scm]
 # This will use git tags for versioning. Without it, pip may install the package as UNKNOWN, which also breaks the scripts.
+write_to = "f5_tts/_version.py"
 
 [project.urls]
 Homepage = "https://github.com/SWivid/F5-TTS"
