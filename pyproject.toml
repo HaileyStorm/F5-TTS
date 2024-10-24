@@ -51,6 +51,10 @@ eval = [
     "zhon",
 ]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["f5_tts"]
+
 [project.urls]
 Homepage = "https://github.com/SWivid/F5-TTS"
 
