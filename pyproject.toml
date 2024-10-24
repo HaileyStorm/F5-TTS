@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "f5-tts"
-dynamic = ["version"]
+version = "0.1.0"
 description = "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
 readme = "README.md"
 license = {text = "MIT License"}
@@ -50,10 +50,6 @@ eval = [
     "zhconv",
     "zhon",
 ]
-
-[tool.setuptools_scm]
-# This will use git tags for versioning. Without it, pip may install the package as UNKNOWN, which also breaks the scripts.
-write_to = "f5_tts/_version.py"
 
 [project.urls]
 Homepage = "https://github.com/SWivid/F5-TTS"
